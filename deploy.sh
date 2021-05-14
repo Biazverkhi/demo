@@ -1,0 +1,1 @@
+gcloud alpha functions deploy demo --entry-point org.springframework.cloud.function.adapter.gcp.GcfJarLauncher --runtime java11 --trigger-http --source target/deploy --memory 512MB --allow-unauthenticated
